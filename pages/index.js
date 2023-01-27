@@ -64,7 +64,7 @@ export default function Home() {
                   <input
                     id="prompt-input"
                     type="text"
-                    placeholder="Me eating blue spaghetti"
+                    placeholder="Me eating blue spaghetti PASTA"
                     value={prompt}
                     onChange={(event) => setPrompt(event.target.value)}
                   />
@@ -95,7 +95,10 @@ export default function Home() {
           {/* User doesn't have a trained model*/}
           {user.exhibits.length === 0 && (
             <p>
-              Unfortunately, you haven't created a personalized Vana Portrait
+              Unfortunately LALALA, you haven't created a personalized Vana Portrait
+
+
+              lalalalalal LALALALALA 
               model yet. Go to https://portrait.vana.com/create to create one 🙂
             </p>
           )}
